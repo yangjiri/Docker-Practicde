@@ -10,7 +10,7 @@ cd Docker-Practicde
 # Login For public Docker Repository
 docker login
 docker pull tnvjwldms/docker-practice
-docker run -p 80:80 -v /home/Docker-Practicde/Project:/var/www/html
+docker run -p 80:80 -v /home/Docker-Practicde/Project:/var/www/html tnvjwldms/docker-practice
 </pre>
 
 ### 作業メモ
